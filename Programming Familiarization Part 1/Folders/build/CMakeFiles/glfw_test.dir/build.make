@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders"
+CMAKE_SOURCE_DIR = "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build"
+CMAKE_BINARY_DIR = "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/glfw_test.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/glfw_test.dir/flags.make
 
 CMakeFiles/glfw_test.dir/src/glfw_test.cpp.o: CMakeFiles/glfw_test.dir/flags.make
 CMakeFiles/glfw_test.dir/src/glfw_test.cpp.o: ../src/glfw_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/glfw_test.dir/src/glfw_test.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glfw_test.dir/src/glfw_test.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glfw_test.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/glfw_test.dir/src/glfw_test.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/glfw_test.dir/src/glfw_test.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glfw_test.cpp"
 
 CMakeFiles/glfw_test.dir/src/glfw_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glfw_test.dir/src/glfw_test.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glfw_test.cpp" > CMakeFiles/glfw_test.dir/src/glfw_test.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glfw_test.cpp" > CMakeFiles/glfw_test.dir/src/glfw_test.cpp.i
 
 CMakeFiles/glfw_test.dir/src/glfw_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glfw_test.dir/src/glfw_test.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glfw_test.cpp" -o CMakeFiles/glfw_test.dir/src/glfw_test.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glfw_test.cpp" -o CMakeFiles/glfw_test.dir/src/glfw_test.cpp.s
 
 CMakeFiles/glfw_test.dir/src/glfw_test.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/glfw_test.dir/src/glfw_test.cpp.o.provides.build: CMakeFiles/glfw_tes
 
 CMakeFiles/glfw_test.dir/src/glad.c.o: CMakeFiles/glfw_test.dir/flags.make
 CMakeFiles/glfw_test.dir/src/glad.c.o: ../src/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/glfw_test.dir/src/glad.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_test.dir/src/glad.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glad.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/glfw_test.dir/src/glad.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_test.dir/src/glad.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glad.c"
 
 CMakeFiles/glfw_test.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_test.dir/src/glad.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glad.c" > CMakeFiles/glfw_test.dir/src/glad.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glad.c" > CMakeFiles/glfw_test.dir/src/glad.c.i
 
 CMakeFiles/glfw_test.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_test.dir/src/glad.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glad.c" -o CMakeFiles/glfw_test.dir/src/glad.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glad.c" -o CMakeFiles/glfw_test.dir/src/glad.c.s
 
 CMakeFiles/glfw_test.dir/src/glad.c.o.requires:
 
@@ -124,7 +124,7 @@ glfw_test: /usr/lib/x86_64-linux-gnu/libXrandr.so
 glfw_test: /usr/lib/x86_64-linux-gnu/libXinerama.so
 glfw_test: /usr/lib/x86_64-linux-gnu/libXcursor.so
 glfw_test: CMakeFiles/glfw_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable glfw_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable glfw_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -142,6 +142,6 @@ CMakeFiles/glfw_test.dir/clean:
 .PHONY : CMakeFiles/glfw_test.dir/clean
 
 CMakeFiles/glfw_test.dir/depend:
-	cd "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/glfw_test.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/glfw_test.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/glfw_test.dir/depend
 

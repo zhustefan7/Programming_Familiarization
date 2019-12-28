@@ -4,15 +4,17 @@
 #include <typeinfo>
 #include <math.h>  
 #include <cmath>
+#include <unordered_map> 
+#include <unordered_set>
 using namespace std;
 namespace mrsd
 {
 	void Controller::control(const mrsd::Game& g, float t)
-	{
+	{   
         vector<Player*>players = g.getPlayers();
         list<Projectile> Projectiles = g.getProjectiles();
         vector<Prediction> Predictions = trackProjectile(Projectiles,g); 
-        vector<int> safe_spots = determineSafeSpots(Predictions, g);
+        determineSafeSpots(Predictions, g);
         // int safe_spot = pickSafeSpot(g);
         // Prediction pred= trackProjectile(projectiles,g);
 
@@ -33,8 +35,8 @@ namespace mrsd
                 // cout <<     it -> x;
                 // p.x ++;
                 Player * p = *it;         
-                int safe_spot = pickSafeSpot(safe_spots, p, g);
-                // cout << "safe spot used:"<<safe_spot << endl;
+                int safe_spot = pickSafeSpot( p, g);
+                cout << "safe spot used:"<<safe_spot << endl;
                 p -> x =safe_spot;
             }
 	}
@@ -99,64 +101,93 @@ namespace mrsd
 		return Predictions;
 	}
 
-	vector<int> Controller::determineSafeSpots(vector<Prediction>Predictions, const Game& g)
+
+	void Controller::determineSafeSpots(vector<Prediction>Predictions, const Game& g)
 	{  
         float buffer_time = 2.f;    //in terms of game time
         float game_time = g.getGameTime();
+        float explosion_time = g.explosionTime;
+        float explosion_size = g.explosionSize;
         float time_step = g.getTimeStep();
         int w = g.getWidth();
+        int explosion_radius = g.explosionSize/2;
+    
 
-        float explosion_size = g.explosionSize;
-        vector<int> safe_spots(w,1);
+        // cout << unsafe_spots.size()<< endl;
+
+        // delete explosions that are over
+        for ( map<int, unordered_set<int>>::iterator it = unsafe_spots.begin(); it != unsafe_spots.end();++it){
+            if (game_time- it->first > explosion_time){
+                // cout << typeid(it->first).name()<<endl;
+                cout << "game time:" << game_time<<endl;
+                      if (unsafe_spots.count(it->first)){
+                        cout << "deleted time:" << it->first << endl;
+                        unsafe_spots.erase(it->first);
+                    }
+            }
+        }
+
+        // populating future impact spots with impact predictions
         for (vector<Prediction>::iterator p = Predictions.begin(); p != Predictions.end(); ++p){
             int impact_spot = int(p->x);
-            float impact_time = p->t;
+            int impact_time = int(p->t);
 
-            cout<< "impact spot"<<impact_spot << endl;
+            // cout<< "impact spot"<<impact_spot << endl;
             // cout << "impact time " << impact_time << endl;
             // cout << "game time " << game_time << endl;
             // cout<< p->x ;
 
-            if (impact_spot >= g.explosionSize/2 && impact_spot < w-g.explosionSize/2){
+            if (impact_spot >= explosion_radius && impact_spot < w-explosion_radius){
+            // only record impact projectiles that will hit within the next buffer seconds
             if ((impact_time - game_time) < buffer_time){
-                safe_spots[impact_spot+3]= 0;
-                safe_spots[impact_spot-3]= 0;
-                safe_spots[impact_spot+2]= 0;
-                safe_spots[impact_spot-2]= 0;
-                safe_spots[impact_spot+1]= 0;
-                safe_spots[impact_spot-1]= 0;
-                safe_spots[impact_spot]= 0;
-            }
+                // cout << "inserted impact time"<<impact_time << endl;
+                if (!unsafe_spots.count(impact_time)){
+                        unordered_set<int> tmp; 
+                        unsafe_spots.insert({impact_time,tmp});
+                }
+                for (int i = -explosion_radius; i<= explosion_radius; i++){
+                    // cout << "inserted impact time"<<impact_time << "impact spot:" <<impact_spot<<endl;
+                    unsafe_spots[impact_time].insert(impact_spot+i);
+                    // cout << unsafe_spots[impact_time].size()<< endl;
+                }
+                }
             }
         }
-        return safe_spots;
+        return;
 	}
 
-	int Controller::pickSafeSpot(vector<int> safe_spots, Player* p, const Game& g)
+	int Controller::pickSafeSpot(Player* p, const Game& g)
 	{
-        int start_pos = int(p->x); 
+        int start_pos = int(p->x);  
         int p1 = start_pos;
         int p2 = start_pos;
+        bool p1_safe = true;
+        bool p2_safe = true;
         int w = g.getWidth();
         while (true){
+            cout << "stuck here" << endl;   
             // cout << p1<<endl;
             // cout << safe_spots[p1]<<endl;
             if (p1 >=0){
                 --p1;
-                if (safe_spots[p1]){
-                    // cout << "returned A ";
-                    return p1;
-                }
             }
             if (p2 <w){
                 ++p2;
-                if (safe_spots[p2]){
-                    // cout << "returned B ";
-                return p2;
+            }
+
+            for (map<int, unordered_set<int>>::iterator it = unsafe_spots.begin(); it != unsafe_spots.end();++it){
+                if (unsafe_spots[it->first].count(p1)){
+                    p1_safe = false;
+                }
+                if (unsafe_spots[it->first].count(p2)){
+                    p2_safe = false;
                 }
             }
 
-            if (p1 ==0 && p2 == w-1){
+            if (p1_safe) return p1;
+            else if (p2_safe) return p2;
+
+            else if (p1 ==0 && p2 == w-1){
                 //  cout << "returned C ";
                 return start_pos;
             }

@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500
 
-C_INCLUDES = -I"/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/include" -I"/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/ThirdParty/glfw/include" -I"/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src" -I"/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/ThirdParty/glfw/src" 
+C_INCLUDES = -I"/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/include" -I"/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/include" -I"/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src" -I"/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/ThirdParty/glfw/src" 
 

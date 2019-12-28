@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders"
+CMAKE_SOURCE_DIR = "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build"
+CMAKE_BINARY_DIR = "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build"
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = "/home/stefanzhu/Documents/2020 Spring/Programming Familiariz
 include ThirdParty/glfw/CMakeFiles/uninstall.dir/progress.make
 
 ThirdParty/glfw/CMakeFiles/uninstall:
-	cd "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/ThirdParty/glfw" && /usr/bin/cmake -P /home/stefanzhu/Documents/2020\ Spring/Programming\ Familiarization\ Part\ 1/Folders/build/ThirdParty/glfw/cmake_uninstall.cmake
+	cd "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/ThirdParty/glfw" && /usr/bin/cmake -P /home/stefanzhu/Documents/2020\ Spring/Programming_familiarization/Programming\ Familiarization\ Part\ 1/Folders/build/ThirdParty/glfw/cmake_uninstall.cmake
 
 uninstall: ThirdParty/glfw/CMakeFiles/uninstall
 uninstall: ThirdParty/glfw/CMakeFiles/uninstall.dir/build.make
@@ -67,10 +67,10 @@ ThirdParty/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : ThirdParty/glfw/CMakeFiles/uninstall.dir/build
 
 ThirdParty/glfw/CMakeFiles/uninstall.dir/clean:
-	cd "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/ThirdParty/glfw" && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/ThirdParty/glfw" && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : ThirdParty/glfw/CMakeFiles/uninstall.dir/clean
 
 ThirdParty/glfw/CMakeFiles/uninstall.dir/depend:
-	cd "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/ThirdParty/glfw" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/ThirdParty/glfw" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/ThirdParty/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/ThirdParty/glfw" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/ThirdParty/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : ThirdParty/glfw/CMakeFiles/uninstall.dir/depend
 

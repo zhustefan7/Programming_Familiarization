@@ -1,6 +1,8 @@
 #pragma once
 #include "Player.h"
 #include "Game.h"
+#include <unordered_map> 
+#include <unordered_set> 
 #include <map>
 #include <vector>
 using namespace std;
@@ -13,6 +15,7 @@ namespace mrsd
 	class Controller
 	{
 		public:
+            map <int, unordered_set<int>> unsafe_spots;
 			Controller():p(0){}
 			/**
 			 * Control AI based on state of game. "t" time has passed since last update.
@@ -33,11 +36,11 @@ namespace mrsd
 			/*
 			 * Determine safe spots at time t based on state of all observed projectiles.
 			 */
-			vector<int> determineSafeSpots(vector<Prediction>Predictions, const Game& g);
+			void determineSafeSpots(vector<Prediction>Predictions, const Game& g);
 
 			/*
 			 * Pick safe spot from determined safe spots.
 			 */
-			int pickSafeSpot(vector<int> safe_spots, Player* p, const Game& g);
+			int pickSafeSpot( Player* p, const Game& g);
 	};
 }

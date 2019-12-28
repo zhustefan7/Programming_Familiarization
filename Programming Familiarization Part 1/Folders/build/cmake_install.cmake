@@ -1,4 +1,4 @@
-# Install script for directory: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders
+# Install script for directory: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/ThirdParty/glfw/cmake_install.cmake")
+  include("/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/ThirdParty/glfw/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

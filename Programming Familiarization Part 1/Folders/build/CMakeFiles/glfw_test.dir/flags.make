@@ -7,11 +7,11 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I"/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/include" -I"/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/ThirdParty/glfw/include" 
+C_INCLUDES = -I"/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/include" -I"/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/include" 
 
 CXX_FLAGS =  -g -Wall -std=c++11  
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/include" -I"/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/ThirdParty/glfw/include" 
+CXX_INCLUDES = -I"/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/include" -I"/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/include" 
 

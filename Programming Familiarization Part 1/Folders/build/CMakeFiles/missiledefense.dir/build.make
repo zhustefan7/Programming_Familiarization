@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders"
+CMAKE_SOURCE_DIR = "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build"
+CMAKE_BINARY_DIR = "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/missiledefense.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/missiledefense.dir/flags.make
 
 CMakeFiles/missiledefense.dir/src/startup.cpp.o: CMakeFiles/missiledefense.dir/flags.make
 CMakeFiles/missiledefense.dir/src/startup.cpp.o: ../src/startup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/missiledefense.dir/src/startup.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/missiledefense.dir/src/startup.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/startup.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/missiledefense.dir/src/startup.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/missiledefense.dir/src/startup.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/startup.cpp"
 
 CMakeFiles/missiledefense.dir/src/startup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/missiledefense.dir/src/startup.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/startup.cpp" > CMakeFiles/missiledefense.dir/src/startup.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/startup.cpp" > CMakeFiles/missiledefense.dir/src/startup.cpp.i
 
 CMakeFiles/missiledefense.dir/src/startup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/missiledefense.dir/src/startup.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/startup.cpp" -o CMakeFiles/missiledefense.dir/src/startup.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/startup.cpp" -o CMakeFiles/missiledefense.dir/src/startup.cpp.s
 
 CMakeFiles/missiledefense.dir/src/startup.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/missiledefense.dir/src/startup.cpp.o.provides.build: CMakeFiles/missi
 
 CMakeFiles/missiledefense.dir/src/Game.cpp.o: CMakeFiles/missiledefense.dir/flags.make
 CMakeFiles/missiledefense.dir/src/Game.cpp.o: ../src/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/missiledefense.dir/src/Game.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/missiledefense.dir/src/Game.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/Game.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/missiledefense.dir/src/Game.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/missiledefense.dir/src/Game.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/Game.cpp"
 
 CMakeFiles/missiledefense.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/missiledefense.dir/src/Game.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/Game.cpp" > CMakeFiles/missiledefense.dir/src/Game.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/Game.cpp" > CMakeFiles/missiledefense.dir/src/Game.cpp.i
 
 CMakeFiles/missiledefense.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/missiledefense.dir/src/Game.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/Game.cpp" -o CMakeFiles/missiledefense.dir/src/Game.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/Game.cpp" -o CMakeFiles/missiledefense.dir/src/Game.cpp.s
 
 CMakeFiles/missiledefense.dir/src/Game.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/missiledefense.dir/src/Game.cpp.o.provides.build: CMakeFiles/missiled
 
 CMakeFiles/missiledefense.dir/src/glad.c.o: CMakeFiles/missiledefense.dir/flags.make
 CMakeFiles/missiledefense.dir/src/glad.c.o: ../src/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/missiledefense.dir/src/glad.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/missiledefense.dir/src/glad.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glad.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/missiledefense.dir/src/glad.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/missiledefense.dir/src/glad.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glad.c"
 
 CMakeFiles/missiledefense.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/missiledefense.dir/src/glad.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glad.c" > CMakeFiles/missiledefense.dir/src/glad.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glad.c" > CMakeFiles/missiledefense.dir/src/glad.c.i
 
 CMakeFiles/missiledefense.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/missiledefense.dir/src/glad.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glad.c" -o CMakeFiles/missiledefense.dir/src/glad.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glad.c" -o CMakeFiles/missiledefense.dir/src/glad.c.s
 
 CMakeFiles/missiledefense.dir/src/glad.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/missiledefense.dir/src/glad.c.o.provides.build: CMakeFiles/missiledef
 
 CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.o: CMakeFiles/missiledefense.dir/flags.make
 CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.o: ../src/gl_frontend.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/gl_frontend.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/gl_frontend.cpp"
 
 CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/gl_frontend.cpp" > CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/gl_frontend.cpp" > CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.i
 
 CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/gl_frontend.cpp" -o CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/gl_frontend.cpp" -o CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.s
 
 CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.o.provides.build: CMakeFiles/m
 
 CMakeFiles/missiledefense.dir/src/glutils.cpp.o: CMakeFiles/missiledefense.dir/flags.make
 CMakeFiles/missiledefense.dir/src/glutils.cpp.o: ../src/glutils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/missiledefense.dir/src/glutils.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/missiledefense.dir/src/glutils.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glutils.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/missiledefense.dir/src/glutils.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/missiledefense.dir/src/glutils.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glutils.cpp"
 
 CMakeFiles/missiledefense.dir/src/glutils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/missiledefense.dir/src/glutils.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glutils.cpp" > CMakeFiles/missiledefense.dir/src/glutils.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glutils.cpp" > CMakeFiles/missiledefense.dir/src/glutils.cpp.i
 
 CMakeFiles/missiledefense.dir/src/glutils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/missiledefense.dir/src/glutils.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glutils.cpp" -o CMakeFiles/missiledefense.dir/src/glutils.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glutils.cpp" -o CMakeFiles/missiledefense.dir/src/glutils.cpp.s
 
 CMakeFiles/missiledefense.dir/src/glutils.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/missiledefense.dir/src/glutils.cpp.o.provides.build: CMakeFiles/missi
 
 CMakeFiles/missiledefense.dir/src/GLMesh.cpp.o: CMakeFiles/missiledefense.dir/flags.make
 CMakeFiles/missiledefense.dir/src/GLMesh.cpp.o: ../src/GLMesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/missiledefense.dir/src/GLMesh.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/missiledefense.dir/src/GLMesh.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/GLMesh.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/missiledefense.dir/src/GLMesh.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/missiledefense.dir/src/GLMesh.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/GLMesh.cpp"
 
 CMakeFiles/missiledefense.dir/src/GLMesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/missiledefense.dir/src/GLMesh.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/GLMesh.cpp" > CMakeFiles/missiledefense.dir/src/GLMesh.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/GLMesh.cpp" > CMakeFiles/missiledefense.dir/src/GLMesh.cpp.i
 
 CMakeFiles/missiledefense.dir/src/GLMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/missiledefense.dir/src/GLMesh.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/GLMesh.cpp" -o CMakeFiles/missiledefense.dir/src/GLMesh.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/GLMesh.cpp" -o CMakeFiles/missiledefense.dir/src/GLMesh.cpp.s
 
 CMakeFiles/missiledefense.dir/src/GLMesh.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/missiledefense.dir/src/GLMesh.cpp.o.provides.build: CMakeFiles/missil
 
 CMakeFiles/missiledefense.dir/src/Controller.cpp.o: CMakeFiles/missiledefense.dir/flags.make
 CMakeFiles/missiledefense.dir/src/Controller.cpp.o: ../src/Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/missiledefense.dir/src/Controller.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/missiledefense.dir/src/Controller.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/Controller.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/missiledefense.dir/src/Controller.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/missiledefense.dir/src/Controller.cpp.o -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/Controller.cpp"
 
 CMakeFiles/missiledefense.dir/src/Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/missiledefense.dir/src/Controller.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/Controller.cpp" > CMakeFiles/missiledefense.dir/src/Controller.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/Controller.cpp" > CMakeFiles/missiledefense.dir/src/Controller.cpp.i
 
 CMakeFiles/missiledefense.dir/src/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/missiledefense.dir/src/Controller.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/Controller.cpp" -o CMakeFiles/missiledefense.dir/src/Controller.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/Controller.cpp" -o CMakeFiles/missiledefense.dir/src/Controller.cpp.s
 
 CMakeFiles/missiledefense.dir/src/Controller.cpp.o.requires:
 
@@ -254,7 +254,7 @@ missiledefense: /usr/lib/x86_64-linux-gnu/libXrandr.so
 missiledefense: /usr/lib/x86_64-linux-gnu/libXinerama.so
 missiledefense: /usr/lib/x86_64-linux-gnu/libXcursor.so
 missiledefense: CMakeFiles/missiledefense.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable missiledefense"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable missiledefense"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/missiledefense.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -277,6 +277,6 @@ CMakeFiles/missiledefense.dir/clean:
 .PHONY : CMakeFiles/missiledefense.dir/clean
 
 CMakeFiles/missiledefense.dir/depend:
-	cd "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build" "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/missiledefense.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build" "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/missiledefense.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/missiledefense.dir/depend
 

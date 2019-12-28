@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1e048/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1e048.dir/build.make CMakeFiles/cmTC_1e048.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1e048.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_1e048.dir/testCCompiler.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_1e048
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e048.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_1e048.dir/testCCompiler.c.o  -o cmTC_1e048 -rdynamic 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7c7fa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c7fa.dir/build.make CMakeFiles/cmTC_7c7fa.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c7fa.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7c7fa.dir/testCCompiler.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_7c7fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c7fa.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7c7fa.dir/testCCompiler.c.o  -o cmTC_7c7fa -rdynamic 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_32aa1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_32aa1.dir/build.make CMakeFiles/cmTC_32aa1.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_32aa1.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_32aa1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_32aa1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32aa1.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_32aa1.dir/CMakeCCompilerABI.c.o  -o cmTC_32aa1 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_67b4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67b4f.dir/build.make CMakeFiles/cmTC_67b4f.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67b4f.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_67b4f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_67b4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67b4f.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_67b4f.dir/CMakeCCompilerABI.c.o  -o cmTC_67b4f -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 6.5.0 20181026 (Ubuntu 6.5.0-2ubuntu1~16.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32aa1' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW16jEE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_32aa1 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_32aa1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32aa1' '-rdynamic' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_67b4f' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdegAFP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_67b4f /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_67b4f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_67b4f' '-rdynamic' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_32aa1/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_32aa1.dir/build.make CMakeFiles/cmTC_32aa1.dir/build]
-  ignore line: [make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_32aa1.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_32aa1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_32aa1]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32aa1.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_32aa1.dir/CMakeCCompilerABI.c.o  -o cmTC_32aa1 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_67b4f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_67b4f.dir/build.make CMakeFiles/cmTC_67b4f.dir/build]
+  ignore line: [make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_67b4f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_67b4f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_67b4f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67b4f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_67b4f.dir/CMakeCCompilerABI.c.o  -o cmTC_67b4f -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.5.0 20181026 (Ubuntu 6.5.0-2ubuntu1~16.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32aa1' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW16jEE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_32aa1 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_32aa1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_67b4f' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdegAFP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_67b4f /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_67b4f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccW16jEE.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdegAFP.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -110,7 +110,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_32aa1] ==> ignore
+    arg [cmTC_67b4f] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o] ==> ignore
@@ -122,7 +122,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
-    arg [CMakeFiles/cmTC_32aa1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_67b4f.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -156,17 +156,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d9078/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d9078.dir/build.make CMakeFiles/cmTC_d9078.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d9078.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_d9078.dir/feature_tests.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_d9078
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9078.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_d9078.dir/feature_tests.c.o  -o cmTC_d9078 -rdynamic 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_92352/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92352.dir/build.make CMakeFiles/cmTC_92352.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92352.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_92352.dir/feature_tests.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_92352
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92352.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_92352.dir/feature_tests.c.o  -o cmTC_92352 -rdynamic 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -176,17 +176,17 @@ make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Fa
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_652ef/fast"
-/usr/bin/make -f CMakeFiles/cmTC_652ef.dir/build.make CMakeFiles/cmTC_652ef.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_652ef.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_652ef.dir/feature_tests.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_652ef
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_652ef.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_652ef.dir/feature_tests.c.o  -o cmTC_652ef -rdynamic 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_498a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_498a2.dir/build.make CMakeFiles/cmTC_498a2.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_498a2.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_498a2.dir/feature_tests.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_498a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_498a2.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_498a2.dir/feature_tests.c.o  -o cmTC_498a2 -rdynamic 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -196,17 +196,17 @@ make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Fa
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_98937/fast"
-/usr/bin/make -f CMakeFiles/cmTC_98937.dir/build.make CMakeFiles/cmTC_98937.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_98937.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_98937.dir/feature_tests.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_98937
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98937.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_98937.dir/feature_tests.c.o  -o cmTC_98937 -rdynamic 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3738b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3738b.dir/build.make CMakeFiles/cmTC_3738b.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3738b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_3738b.dir/feature_tests.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_3738b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3738b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_3738b.dir/feature_tests.c.o  -o cmTC_3738b -rdynamic 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -214,30 +214,30 @@ make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Fa
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_56077/fast"
-/usr/bin/make -f CMakeFiles/cmTC_56077.dir/build.make CMakeFiles/cmTC_56077.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_56077.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_56077.dir/testCXXCompiler.cxx.o -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
-Linking CXX executable cmTC_56077
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56077.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_56077.dir/testCXXCompiler.cxx.o  -o cmTC_56077 -rdynamic 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_27024/fast"
+/usr/bin/make -f CMakeFiles/cmTC_27024.dir/build.make CMakeFiles/cmTC_27024.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_27024.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_27024.dir/testCXXCompiler.cxx.o -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_27024
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27024.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_27024.dir/testCXXCompiler.cxx.o  -o cmTC_27024 -rdynamic 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b29d8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b29d8.dir/build.make CMakeFiles/cmTC_b29d8.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b29d8.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_b29d8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b29d8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b29d8.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_b29d8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b29d8 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_b53a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b53a4.dir/build.make CMakeFiles/cmTC_b53a4.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b53a4.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_b53a4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b53a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b53a4.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_b53a4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b53a4 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
@@ -247,24 +247,24 @@ Thread model: posix
 gcc version 6.5.0 20181026 (Ubuntu 6.5.0-2ubuntu1~16.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b29d8' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG3dyxR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b29d8 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_b29d8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b29d8' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b53a4' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cch875R0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b53a4 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_b53a4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b53a4' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b29d8/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b29d8.dir/build.make CMakeFiles/cmTC_b29d8.dir/build]
-  ignore line: [make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b29d8.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_b29d8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_b29d8]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b29d8.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_b29d8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b29d8 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b53a4/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b53a4.dir/build.make CMakeFiles/cmTC_b53a4.dir/build]
+  ignore line: [make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b53a4.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_b53a4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_b53a4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b53a4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_b53a4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b53a4 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
@@ -274,13 +274,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.5.0 20181026 (Ubuntu 6.5.0-2ubuntu1~16.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b29d8' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG3dyxR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b29d8 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_b29d8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b53a4' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cch875R0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b53a4 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_b53a4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccG3dyxR.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cch875R0.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -298,7 +298,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b29d8] ==> ignore
+    arg [cmTC_b53a4] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o] ==> ignore
@@ -310,7 +310,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
-    arg [CMakeFiles/cmTC_b29d8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_b53a4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -340,17 +340,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_af147/fast"
-/usr/bin/make -f CMakeFiles/cmTC_af147.dir/build.make CMakeFiles/cmTC_af147.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_af147.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_af147.dir/feature_tests.cxx.o -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_af147
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af147.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_af147.dir/feature_tests.cxx.o  -o cmTC_af147 -rdynamic 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d483d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d483d.dir/build.make CMakeFiles/cmTC_d483d.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d483d.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_d483d.dir/feature_tests.cxx.o -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_d483d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d483d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_d483d.dir/feature_tests.cxx.o  -o cmTC_d483d -rdynamic 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -413,17 +413,17 @@ make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Fa
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3cb65/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3cb65.dir/build.make CMakeFiles/cmTC_3cb65.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3cb65.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_3cb65.dir/feature_tests.cxx.o -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_3cb65
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cb65.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_3cb65.dir/feature_tests.cxx.o  -o cmTC_3cb65 -rdynamic 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3f670/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f670.dir/build.make CMakeFiles/cmTC_3f670.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3f670.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_3f670.dir/feature_tests.cxx.o -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_3f670
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f670.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_3f670.dir/feature_tests.cxx.o  -o cmTC_3f670 -rdynamic 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -486,17 +486,17 @@ make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Fa
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0da37/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0da37.dir/build.make CMakeFiles/cmTC_0da37.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0da37.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_0da37.dir/feature_tests.cxx.o -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_0da37
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0da37.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_0da37.dir/feature_tests.cxx.o  -o cmTC_0da37 -rdynamic 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f0891/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0891.dir/build.make CMakeFiles/cmTC_f0891.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0891.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_f0891.dir/feature_tests.cxx.o -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_f0891
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0891.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f0891.dir/feature_tests.cxx.o  -o cmTC_f0891 -rdynamic 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -557,114 +557,114 @@ make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Fa
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2aa85/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2aa85.dir/build.make CMakeFiles/cmTC_2aa85.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2aa85.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_2aa85.dir/CheckIncludeFile.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_2aa85
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2aa85.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_2aa85.dir/CheckIncludeFile.c.o  -o cmTC_2aa85 -rdynamic 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_422a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_422a9.dir/build.make CMakeFiles/cmTC_422a9.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_422a9.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_422a9.dir/CheckIncludeFile.c.o   -c "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_422a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_422a9.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_422a9.dir/CheckIncludeFile.c.o  -o cmTC_422a9 -rdynamic 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_86078/fast"
-/usr/bin/make -f CMakeFiles/cmTC_86078.dir/build.make CMakeFiles/cmTC_86078.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_86078.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_86078.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_86078
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86078.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_86078.dir/CheckFunctionExists.c.o  -o cmTC_86078 -rdynamic -lpthread 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6020d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6020d.dir/build.make CMakeFiles/cmTC_6020d.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6020d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6020d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6020d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6020d.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_6020d.dir/CheckFunctionExists.c.o  -o cmTC_6020d -rdynamic -lpthread 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e4eb7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e4eb7.dir/build.make CMakeFiles/cmTC_e4eb7.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e4eb7.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_e4eb7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e4eb7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4eb7.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_e4eb7.dir/CheckFunctionExists.c.o  -o cmTC_e4eb7 -rdynamic /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b8509/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8509.dir/build.make CMakeFiles/cmTC_b8509.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8509.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_b8509.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b8509
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8509.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_b8509.dir/CheckFunctionExists.c.o  -o cmTC_b8509 -rdynamic /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_338fc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_338fc.dir/build.make CMakeFiles/cmTC_338fc.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_338fc.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_338fc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_338fc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_338fc.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_338fc.dir/CheckFunctionExists.c.o  -o cmTC_338fc -rdynamic 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_83c7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83c7f.dir/build.make CMakeFiles/cmTC_83c7f.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83c7f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_83c7f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_83c7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83c7f.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_83c7f.dir/CheckFunctionExists.c.o  -o cmTC_83c7f -rdynamic 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4003f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4003f.dir/build.make CMakeFiles/cmTC_4003f.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4003f.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_4003f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4003f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4003f.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_4003f.dir/CheckFunctionExists.c.o  -o cmTC_4003f -rdynamic 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1bcb6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bcb6.dir/build.make CMakeFiles/cmTC_1bcb6.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bcb6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_1bcb6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1bcb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bcb6.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_1bcb6.dir/CheckFunctionExists.c.o  -o cmTC_1bcb6 -rdynamic 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_38640/fast"
-/usr/bin/make -f CMakeFiles/cmTC_38640.dir/build.make CMakeFiles/cmTC_38640.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_38640.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_38640.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_38640
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38640.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_38640.dir/CheckFunctionExists.c.o  -o cmTC_38640 -rdynamic 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_83647/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83647.dir/build.make CMakeFiles/cmTC_83647.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83647.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_83647.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_83647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83647.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_83647.dir/CheckFunctionExists.c.o  -o cmTC_83647 -rdynamic 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_53ebd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_53ebd.dir/build.make CMakeFiles/cmTC_53ebd.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_53ebd.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_53ebd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_53ebd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53ebd.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_53ebd.dir/CheckFunctionExists.c.o  -o cmTC_53ebd -rdynamic 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_64109/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64109.dir/build.make CMakeFiles/cmTC_64109.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64109.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_64109.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_64109
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64109.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_64109.dir/CheckFunctionExists.c.o  -o cmTC_64109 -rdynamic 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d921c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d921c.dir/build.make CMakeFiles/cmTC_d921c.dir/build
-make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d921c.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_d921c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d921c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d921c.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_d921c.dir/CheckFunctionExists.c.o  -o cmTC_d921c -rdynamic -lICE 
-make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_03bf6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03bf6.dir/build.make CMakeFiles/cmTC_03bf6.dir/build
+make[1]: Entering directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03bf6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_03bf6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_03bf6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03bf6.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_03bf6.dir/CheckFunctionExists.c.o  -o cmTC_03bf6 -rdynamic -lICE 
+make[1]: Leaving directory '/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/build/CMakeFiles/CMakeTmp'
 
 

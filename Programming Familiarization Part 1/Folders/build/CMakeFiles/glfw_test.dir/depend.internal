@@ -4,9 +4,9 @@
 CMakeFiles/glfw_test.dir/src/glad.c.o
  ../include/KHR/khrplatform.h
  ../include/glad/glad.h
- /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glad.c
+ /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glad.c
 CMakeFiles/glfw_test.dir/src/glfw_test.cpp.o
  ../ThirdParty/glfw/include/GLFW/glfw3.h
  ../include/KHR/khrplatform.h
  ../include/glad/glad.h
- /home/stefanzhu/Documents/2020 Spring/Programming Familiarization Part 1/Folders/src/glfw_test.cpp
+ /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 1/Folders/src/glfw_test.cpp
