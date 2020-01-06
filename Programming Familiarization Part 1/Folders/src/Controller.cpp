@@ -15,27 +15,13 @@ namespace mrsd
         list<Projectile> Projectiles = g.getProjectiles();
         vector<Prediction> Predictions = trackProjectile(Projectiles,g); 
         determineSafeSpots(Predictions, g);
-        // int safe_spot = pickSafeSpot(g);
-        // Prediction pred= trackProjectile(projectiles,g);
 
-        // for (list<Projectile>::iterator p = projectiles.begin(); p != projectiles.end(); ++p){
-        //     Prediction curr_pred = trackProjectile(*p,g);
-        // }
-
-
-        for (int i =0 ; i< g.getPlayers().size();i++){
-            players[i] -> x++;
-        }
 
 
         for(std::vector<Player*>::const_iterator it = g.getPlayers().begin();
 			it != g.getPlayers().end(); ++it){
-                // Player & p = **it;
-                // // cout << p->x;   
-                // cout <<     it -> x;
-                // p.x ++;
                 Player * p = *it;         
-                int safe_spot = pickSafeSpot( p, g);
+                int safe_spot = pickSafeSpot(p,g);
                 cout << "safe spot used:"<<safe_spot << endl;
                 p -> x =safe_spot;
             }
@@ -104,7 +90,7 @@ namespace mrsd
 
 	void Controller::determineSafeSpots(vector<Prediction>Predictions, const Game& g)
 	{  
-        float buffer_time = 2.f;    //in terms of game time
+        float buffer_time = 1.5f;    //in terms of game time
         float game_time = g.getGameTime();
         float explosion_time = g.explosionTime;
         float explosion_size = g.explosionSize;
@@ -116,12 +102,12 @@ namespace mrsd
         // cout << unsafe_spots.size()<< endl;
 
         // delete explosions that are over
-        for ( map<int, unordered_set<int>>::iterator it = unsafe_spots.begin(); it != unsafe_spots.end();++it){
+        for ( map<int, unordered_set<float>>::iterator it = unsafe_spots.begin(); it != unsafe_spots.end();++it){
             if (game_time- it->first > explosion_time){
                 // cout << typeid(it->first).name()<<endl;
-                cout << "game time:" << game_time<<endl;
+                // cout << "game time:" << game_time<<endl;
                       if (unsafe_spots.count(it->first)){
-                        cout << "deleted time:" << it->first << endl;
+                        // cout << "deleted time:" << it->first << endl;
                         unsafe_spots.erase(it->first);
                     }
             }
@@ -130,9 +116,9 @@ namespace mrsd
         // populating future impact spots with impact predictions
         for (vector<Prediction>::iterator p = Predictions.begin(); p != Predictions.end(); ++p){
             int impact_spot = int(p->x);
-            int impact_time = int(p->t);
+            float impact_time = p->t;
 
-            // cout<< "impact spot"<<impact_spot << endl;
+            cout<< "impact spot"<<impact_spot << endl;
             // cout << "impact time " << impact_time << endl;
             // cout << "game time " << game_time << endl;
             // cout<< p->x ;
@@ -142,7 +128,7 @@ namespace mrsd
             if ((impact_time - game_time) < buffer_time){
                 // cout << "inserted impact time"<<impact_time << endl;
                 if (!unsafe_spots.count(impact_time)){
-                        unordered_set<int> tmp; 
+                        unordered_set<float> tmp; 
                         unsafe_spots.insert({impact_time,tmp});
                 }
                 for (int i = -explosion_radius; i<= explosion_radius; i++){
@@ -156,6 +142,42 @@ namespace mrsd
         return;
 	}
 
+    // int Controller::pickSafeSpot(Player* p, const Game& g){
+    //     int start_pos = int(p->x);  
+    //     int p1 = start_pos;
+    //     int p2 = start_pos;
+    //     int w = g.getWidth();
+
+    //     while (true){
+    //         // cout << "stuck here" << endl;
+    //         // cout <<"p1: "<< p1<<endl;
+
+
+    //         if (p1 >=0){
+    //             --p1;
+    //         }
+    //         if (p2 <w){
+    //             ++p2;
+    //         }
+
+    //         for (map<int, unordered_set<int>>::iterator it = unsafe_spots.begin(); it != unsafe_spots.end();++it){
+    //             if (!unsafe_spots[it->first].count(p1)){
+    //                 cout << " returned from p1" << endl;
+    //                 return p1;
+    //             }
+    //             if (!unsafe_spots[it->first].count(p2)){
+    //                 cout << " returned from p2" << endl;
+    //                 return p2;
+    //             }
+    //         }
+    //         if (p1 <=0 || p2 >= w-1){
+    //             return start_pos;
+    //         }
+
+
+    //     }
+    // }
+
 	int Controller::pickSafeSpot(Player* p, const Game& g)
 	{
         int start_pos = int(p->x);  
@@ -163,34 +185,40 @@ namespace mrsd
         int p2 = start_pos;
         bool p1_safe = true;
         bool p2_safe = true;
+        bool start_pos_safe = true;
         int w = g.getWidth();
-        while (true){
-            cout << "stuck here" << endl;   
-            // cout << p1<<endl;
-            // cout << safe_spots[p1]<<endl;
-            if (p1 >=0){
-                --p1;
-            }
-            if (p2 <w){
-                ++p2;
-            }
+        // cout << "stuck here" << endl;   
+        // cout << p1<<endl;
+        // cout << safe_spots[p1]<<endl;
+        if (p1 >=0){
+            --p1;   
+        }
+        if (p2 <w){
+            ++p2;
+        }
 
-            for (map<int, unordered_set<int>>::iterator it = unsafe_spots.begin(); it != unsafe_spots.end();++it){
-                if (unsafe_spots[it->first].count(p1)){
-                    p1_safe = false;
-                }
-                if (unsafe_spots[it->first].count(p2)){
-                    p2_safe = false;
-                }
+        for (map<int, unordered_set<float>>::iterator it = unsafe_spots.begin(); it != unsafe_spots.end();++it){
+            if (unsafe_spots[it->first].count(start_pos)){
+                start_pos_safe = false;
             }
-
-            if (p1_safe) return p1;
-            else if (p2_safe) return p2;
-
-            else if (p1 ==0 && p2 == w-1){
-                //  cout << "returned C ";
-                return start_pos;
+            if (unsafe_spots[it->first].count(p1)){
+                p1_safe = false;
             }
+            if (unsafe_spots[it->first].count(p2)){
+                p2_safe = false;
+            }
+        }
+
+        cout << "start pos safe:" << start_pos_safe << endl;
+        // cout << "p1_safe:" << p1_safe << endl;
+        // cout << "p2_safe:" << p2_safe << endl;
+        if (start_pos_safe) return start_pos;
+        else if (p1_safe) return p1;
+        else if (p2_safe) return p2;
+
+        else if (p1 ==0 || p2 == w-1){
+            //  cout << "returned C ";
+            return start_pos;
         }
 		return start_pos;
 	}

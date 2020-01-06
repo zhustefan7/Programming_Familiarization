@@ -15,7 +15,7 @@ namespace mrsd
 	class Controller
 	{
 		public:
-            map <int, unordered_set<int>> unsafe_spots;
+            map <int, unordered_set<float>> unsafe_spots;
 			Controller():p(0){}
 			/**
 			 * Control AI based on state of game. "t" time has passed since last update.
