@@ -4,6 +4,7 @@
 #include <typeinfo>
 #include <math.h>  
 #include <cmath>
+#include <stdlib.h> 
 #include <unordered_map> 
 #include <unordered_set>
 using namespace std;
@@ -141,65 +142,7 @@ namespace mrsd
 	}
 
 
-	// int Controller::pickSafeSpot(Player* p, const Game& g)
-	// {
-    //     int start_pos = int(p->x);  
-    //     int p1 = start_pos;
-    //     int p2 = start_pos;
-    //     bool p1_safe = false;
-    //     bool p2_safe = false;
-    //     bool start_pos_safe = false;
-    //     int w = g.getWidth();
-    //     // cout << "stuck here" << endl;   
-    //     // cout << p1<<endl;
-    //     // cout << safe_spots[p1]<<endl;
-    //     while (!p1_safe && !p2_safe && !start_pos_safe) {
-    //     // cout<< "stuck here" << endl;
-
-    //         if (p1 >=0){
-    //             --p1;   
-    //         }
-    //         if (p2 <w){
-    //             ++p2;
-    //         }
-    //         if (unsafe_spots.size()==0) break;
-    //         // cout<<unsafe_spots.size();
-
-    //         for (map<int, unordered_set<float>>::iterator it = unsafe_spots.begin(); it != unsafe_spots.end();++it){
-    //             if (!unsafe_spots[it->first].count(start_pos)){
-    //                 cout << "returned from start pos" << endl;
-    //                 start_pos_safe = true;
-    //                 break;
-    //             }   
-    //             if (!unsafe_spots[it->first].count(p1)){
-    //                 p1_safe = true;
-    //                 cout << "returned from p1" << endl;
-    //                 break;
-    //             }
-    //             if (!unsafe_spots[it->first].count(p2)){
-    //                 p2_safe = true;
-    //                 cout << "returned from p2" << endl;
-    //                 break;
-    //             }
-    //         }
-    //     }
-
-    //     // cout << "start pos safe:" << start_pos_safe << endl;
-    //     // cout << "p1_safe:" << p1_safe << endl;
-    //     // cout << "p2_safe:" << p2_safe << endl;
-    //     if (start_pos_safe) return start_pos;
-    //     else if (p1_safe) return p1;
-    //     else if (p2_safe) return p2;
-
-    //     else if (p1 ==0 || p2 == w-1){
-    //         //  cout << "returned C ";
-    //         return start_pos;
-    //     }
-	// 	return start_pos;
-	// }
-
-
-    int Controller::pickSafeSpot(Player* p, const Game& g)
+	int Controller::pickSafeSpot(Player* p, const Game& g)
 	{
         int start_pos = int(p->x);  
         int p1 = start_pos;
@@ -208,38 +151,40 @@ namespace mrsd
         bool p2_safe = false;
         bool start_pos_safe = false;
         int w = g.getWidth();
+        int sl = g.playerSpeed;
         // cout << "stuck here" << endl;   
         // cout << p1<<endl;
         // cout << safe_spots[p1]<<endl;
+        while (!p1_safe && !p2_safe && !start_pos_safe){
         // cout<< "stuck here" << endl;
 
-        if (p1 >=0){
-            --p1;   
-        }
-        if (p2 <w){
-            ++p2;
-        }
-        if (unsafe_spots.size()==0) break;
-        // cout<<unsafe_spots.size();
-
-        for (map<int, unordered_set<float>>::iterator it = unsafe_spots.begin(); it != unsafe_spots.end();++it){
-            if (!unsafe_spots[it->first].count(start_pos)){
-                cout << "returned from start pos" << endl;
-                start_pos_safe = true;
-                break;
-            }   
-            if (!unsafe_spots[it->first].count(p1)){
-                p1_safe = true;
-                cout << "returned from p1" << endl;
-                break;
+            if (p1 >=0){
+                --p1;   
             }
-            if (!unsafe_spots[it->first].count(p2)){
-                p2_safe = true;
-                cout << "returned from p2" << endl;
-                break;
+            if (p2 <w){
+                ++p2;
+            }
+            if (unsafe_spots.size()==0) break;
+            // cout<<unsafe_spots.size();
+
+            for (map<int, unordered_set<float>>::iterator it = unsafe_spots.begin(); it != unsafe_spots.end();++it){
+                if (!unsafe_spots[it->first].count(start_pos)){
+                    cout << "returned from start pos" << endl;
+                    start_pos_safe = true;
+                    break;
+                }   
+                if (!unsafe_spots[it->first].count(p1)){
+                    p1_safe = true;
+                    cout << "returned from p1" << endl;
+                    break;
+                }
+                if (!unsafe_spots[it->first].count(p2)){
+                    p2_safe = true;
+                    cout << "returned from p2" << endl;
+                    break;
+                }
             }
         }
-
 
         // cout << "start pos safe:" << start_pos_safe << endl;
         // cout << "p1_safe:" << p1_safe << endl;
@@ -254,5 +199,62 @@ namespace mrsd
         }
 		return start_pos;
 	}
+
+
+    // int Controller::pickSafeSpot(Player* p, const Game& g)
+	// {
+    //     int start_pos = int(p->x);  
+    //     int p1 = start_pos;
+    //     int p2 = start_pos;
+    //     bool p1_safe = false;
+    //     bool p2_safe = false;
+    //     bool start_pos_safe = false;
+    //     int w = g.getWidth();
+    //     // cout << "stuck here" << endl;   
+    //     // cout << p1<<endl;
+    //     // cout << safe_spots[p1]<<endl;
+    //     // cout<< "stuck here" << endl;
+
+    //     if (p1 >=0){
+    //         --p1;   
+    //     }
+    //     if (p2 <w){
+    //         ++p2;
+    //     }
+    //     // if (unsafe_spots.size()==0) break;
+    //     // cout<<unsafe_spots.size();
+
+    //     for (map<int, unordered_set<float>>::iterator it = unsafe_spots.begin(); it != unsafe_spots.end();++it){
+    //         if (!unsafe_spots[it->first].count(start_pos)){
+    //             cout << "returned from start pos" << endl;
+    //             start_pos_safe = true;
+    //             // break;
+    //         }   
+    //         if (!unsafe_spots[it->first].count(p1)){
+    //             p1_safe = true;
+    //             cout << "returned from p1" << endl;
+    //             // break;
+    //         }
+    //         if (!unsafe_spots[it->first].count(p2)){
+    //             p2_safe = true;
+    //             cout << "returned from p2" << endl;
+    //             // break;
+    //         }
+    //     }
+
+
+    //     // cout << "start pos safe:" << start_pos_safe << endl;
+    //     // cout << "p1_safe:" << p1_safe << endl;
+    //     // cout << "p2_safe:" << p2_safe << endl;
+    //     if (start_pos_safe) return start_pos;
+    //     else if (p1_safe) return p1;
+    //     else if (p2_safe) return p2;
+
+    //     else if (p1 ==0 || p2 == w-1){
+    //         //  cout << "returned C ";
+    //         return start_pos;
+    //     }
+	// 	return start_pos;
+	// }
 
 }
