@@ -41,6 +41,6 @@ namespace mrsd
 			/*
 			 * Pick safe spot from determined safe spots.
 			 */
-			int pickSafeSpot( Player* p, const Game& g);
+			float pickSafeSpot( Player* p, const Game& g);
 	};
 }
