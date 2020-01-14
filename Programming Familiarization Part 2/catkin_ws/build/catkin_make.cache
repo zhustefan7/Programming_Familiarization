@@ -1,0 +1,2 @@
+chatbot_node:counter_node:message_ui
+-DCATKIN_DEVEL_PREFIX=/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 2/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 2/catkin_ws/install -G Unix Makefiles
