@@ -2,6 +2,8 @@
 #include <ros/console.h>
 #include <chatbot_node/reply_msg.h>
 #include <message_ui/sent_msg.h>
+// #include<boost/format.hpp>
+
 #include <string>
 #include <typeinfo>
 using namespace std;
@@ -11,7 +13,26 @@ using namespace std;
         
 string tmp_sent_msg; 
 chatbot_node::reply_msg tmp_rply_msg;
+string name; 
 
+
+std::string format(const char* format, ...)
+{
+    va_list args;
+    va_start(args, format);
+    #ifndef _MSC_VER
+        size_t size = std::snprintf( nullptr, 0, format, args) + 1; // Extra space for '\0'
+        std::unique_ptr<char[]> buf( new char[ size ] ); 
+        std::vsnprintf( buf.get(), size, format, args);
+        return std::string(buf.get(), buf.get() + size - 1 ); // We don't want the '\0' inside
+    #else
+        int size = _vscprintf(format, args);
+        std::string result(++size, 0);
+        vsnprintf_s((char*)result.data(), size, _TRUNCATE, format, args);
+        return result;
+    #endif
+    va_end(args);
+}
 
 void sent_msg_callback(const message_ui::sent_msg msg)
 {
@@ -41,20 +62,21 @@ int main(int argc, char **argv) {
   while(ros::ok()) {
 
 
-// //     // PUBLISHER CODE
-// //     // std_msgs::String msg;
-// //     // std::stringstream ss;
-// //     // // ss << "hello world "<< count;
-// //     // msg.data = ss.str();
-
 
     if (tmp_sent_msg == "Hello"){
-        tmp_rply_msg.message = "Hello, Stefan";
+        n.getParam("name", name);
+        cout << name << endl;
+        tmp_rply_msg.message = format("Hello, %s      ", name.c_str());
     }
-    // tmp_rply_msg.message = tmp_sent_msg;
-    // cout << tmp_rply_msg.message << endl;
+    else if (tmp_sent_msg == "What is your name?"){
+        tmp_rply_msg.message = "My name is MRSD Siri";
+    }
+    else if (tmp_sent_msg == "How are you?"){
+        tmp_rply_msg.message = "I'm fine,thank you";
+    }
+
+
     chatter_pub.publish(tmp_rply_msg);
-// //     // ROS_INFO("%s", msg.data.c_str());
 
     ros::spinOnce();
     loop_rate.sleep();

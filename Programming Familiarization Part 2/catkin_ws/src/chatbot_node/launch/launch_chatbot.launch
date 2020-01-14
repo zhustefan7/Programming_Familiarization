@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <launch>
 
+  <param name="name" type="string" value="Stefan" />
   <node name="chatbot_node" pkg="chatbot_node" type="chatbot_node"  output ="screen">
   </node>
 
