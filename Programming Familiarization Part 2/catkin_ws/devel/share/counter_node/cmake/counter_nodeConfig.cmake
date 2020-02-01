@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(counter_node_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT " " STREQUAL " ")
+if(NOT "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 2/catkin_ws/devel/include " STREQUAL " ")
   set(counter_node_INCLUDE_DIRS "")
-  set(_include_dirs "")
+  set(_include_dirs "/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 2/catkin_ws/devel/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -121,6 +121,31 @@ foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
     list(APPEND counter_node_LIBRARIES ${library})
+  elseif(${library} MATCHES "^-l")
+    list(APPEND counter_node_LIBRARIES ${library})
+  elseif(${library} MATCHES "^-")
+    # This is a linker flag/option (like -pthread)
+    # There's no standard variable for these, so create an interface library to hold it
+    if(NOT counter_node_NUM_DUMMY_TARGETS)
+      set(counter_node_NUM_DUMMY_TARGETS 0)
+    endif()
+    # Make sure the target name is unique
+    set(interface_target_name "catkin::counter_node::wrapped-linker-option${counter_node_NUM_DUMMY_TARGETS}")
+    while(TARGET "${interface_target_name}")
+      math(EXPR counter_node_NUM_DUMMY_TARGETS "${counter_node_NUM_DUMMY_TARGETS}+1")
+      set(interface_target_name "catkin::counter_node::wrapped-linker-option${counter_node_NUM_DUMMY_TARGETS}")
+    endwhile()
+    add_library("${interface_target_name}" INTERFACE IMPORTED)
+    if("${CMAKE_VERSION}" VERSION_LESS "3.13.0")
+      set_property(
+        TARGET
+        "${interface_target_name}"
+        APPEND PROPERTY
+        INTERFACE_LINK_LIBRARIES "${library}")
+    else()
+      target_link_options("${interface_target_name}" INTERFACE "${library}")
+    endif()
+    list(APPEND counter_node_LIBRARIES "${interface_target_name}")
   elseif(TARGET ${library})
     list(APPEND counter_node_LIBRARIES ${library})
   elseif(IS_ABSOLUTE ${library})
@@ -129,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 2/catkin_ws/devel/lib;/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 2/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 2/catkin_ws/devel/lib;/home/stefanzhu/Documents/aacas/catkin_ws/devel/lib;/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 2/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -152,7 +177,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(counter_node_EXPORTED_TARGETS "")
+set(counter_node_EXPORTED_TARGETS "counter_node_generate_messages_cpp;counter_node_generate_messages_eus;counter_node_generate_messages_lisp;counter_node_generate_messages_nodejs;counter_node_generate_messages_py")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${counter_node_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -189,7 +214,7 @@ foreach(depend ${depends})
   list(APPEND counter_node_EXPORTED_TARGETS ${${counter_node_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "")
+set(pkg_cfg_extras "counter_node-msg-extras.cmake")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${counter_node_DIR}/${extra})
