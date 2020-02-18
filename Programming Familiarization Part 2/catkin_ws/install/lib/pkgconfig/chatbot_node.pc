@@ -1,8 +1,0 @@
-prefix=/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 2/catkin_ws/install
-
-Name: chatbot_node
-Description: Description of chatbot_node
-Version: 0.0.0
-Cflags: -I/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 2/catkin_ws/install/include
-Libs: -L/home/stefanzhu/Documents/2020 Spring/Programming_familiarization/Programming Familiarization Part 2/catkin_ws/install/lib 
-Requires: message_runtime
