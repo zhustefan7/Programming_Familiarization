@@ -80,6 +80,7 @@ class reply_msg {
     return `
     Header header
     string message
+    
     ================================================================================
     MSG: std_msgs/Header
     # Standard metadata for higher-level stamped data types.

@@ -13,6 +13,7 @@ class reply_msg(genpy.Message):
   _has_header = True #flag to mark the presence of a Header object
   _full_text = """Header header
 string message
+
 ================================================================================
 MSG: std_msgs/Header
 # Standard metadata for higher-level stamped data types.

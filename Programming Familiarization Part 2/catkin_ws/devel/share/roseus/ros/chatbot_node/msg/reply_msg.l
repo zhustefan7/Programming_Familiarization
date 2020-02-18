@@ -71,6 +71,7 @@
 (setf (get chatbot_node::reply_msg :definition-)
       "Header header
 string message
+
 ================================================================================
 MSG: std_msgs/Header
 # Standard metadata for higher-level stamped data types.

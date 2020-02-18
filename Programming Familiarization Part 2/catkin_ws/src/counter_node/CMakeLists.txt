@@ -28,6 +28,7 @@ generate_messages(
 
 catkin_package(
   CATKIN_DEPENDS
+  message_runtime
 )
 
 include_directories(
@@ -40,5 +41,5 @@ add_dependencies(counter_node ${catkin_EXPORTED_TARGETS})
 add_dependencies(counter_node message_ui_generate_messages_cpp)
 add_dependencies(counter_node chatbot_node_generate_messages_cpp)
 add_dependencies(counter_node $(PROJECT_NAME)_generate_messages_cpp)
-#add_dependencies(counter_node arithmetic_node_generate_messages_cpp)
+add_dependencies(counter_node arithmetic_node_generate_messages_cpp)
 target_link_libraries(counter_node ${catkin_LIBRARIES} )

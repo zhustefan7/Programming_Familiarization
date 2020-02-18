@@ -7,4 +7,5 @@
 subdirs(gtest)
 subdirs(chatbot_node)
 subdirs(counter_node)
+subdirs(arithmetic_node)
 subdirs(message_ui)

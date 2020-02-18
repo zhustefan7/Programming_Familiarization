@@ -2,8 +2,10 @@
 #include <chatbot_node/reply_msg.h>
 #include <message_ui/sent_msg.h>
 #include <counter_node/counter.h>
+#include <stack> 
+
 using namespace std;
-// #include <arithmetic_node/arithmetic_reply.h>
+#include <arithmetic_node/arithmetic_reply.h>
 
 int num_reply_msg = 0;
 int num_sent_msg = 0;
@@ -54,20 +56,20 @@ void reply_msg_callback(const chatbot_node::reply_msg msg)
 	last_reply_msg_time = msg.header.stamp;
 }
 
-// void arithmetic_reply_msg_callback(const arithmetic_node::arithmetic_reply msg)
-// {
-// 	num_reply_msg++;
-// 	last_reply_msg_time = msg.header.stamp;
-// } 
+void arithmetic_reply_msg_callback(const arithmetic_node::arithmetic_reply msg)
+{
+	num_reply_msg++;
+	last_reply_msg_time = msg.header.stamp;
+} 
 
 int main(int argc, char **argv) {
 
   ros::init(argc, argv, "counter_node");
   ros::NodeHandle n;
-  ros::Publisher chatter_pub = n.advertise<counter_node::counter_reply_msg>("counter_reply_msg", 1000);
+  ros::Publisher chatter_pub =n.advertise<chatbot_node::reply_msg>("reply_msg", 1000);
   reply_msg_sub = n.subscribe("reply_msg", 1000, reply_msg_callback);
   sent_msg_sub = n.subscribe("sent_msg", 1000, sent_msg_callback);
-  ros::ServiceServer service = n.advertiseService("counter", counterCallback);
+  ros::ServiceServer service = n.advertiseService("message_counter", counterCallback);
   // arithmetic_reply_msg_sub = n.subscribe("arithmetic_reply", 1000, arithmetic_reply_msg_callback);
 
   ros::Rate loop_rate(20);

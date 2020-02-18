@@ -146,6 +146,7 @@ struct Definition< ::chatbot_node::reply_msg_<ContainerAllocator> >
   {
     return "Header header\n\
 string message\n\
+\n\
 ================================================================================\n\
 MSG: std_msgs/Header\n\
 # Standard metadata for higher-level stamped data types.\n\
