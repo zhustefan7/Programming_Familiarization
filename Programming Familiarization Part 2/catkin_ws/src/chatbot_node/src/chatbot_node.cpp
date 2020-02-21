@@ -10,10 +10,7 @@ using namespace std;
 
 //Add your code here
 
-        
-// string tmp_sent_msg; 
-// chatbot_node::reply_msg tmp_rply_msg;
-// string name; 
+
 
 
 std::string format(const char* format, ...)
@@ -30,7 +27,7 @@ std::string format(const char* format, ...)
         std::string result(++size, 0);
         vsnprintf_s((char*)result.data(), size, _TRUNCATE, format, args);
         return result;
-    #endif
+    #endif  
     va_end(args);
 }
 
@@ -40,7 +37,10 @@ class chatbot{
     string tmp_sent_msg; 
     chatbot_node::reply_msg tmp_rply_msg;
     string name; 
+    bool received_msg = false; 
+
     ros::Publisher chatter_pub;
+    ros::Subscriber sub;
 
 
     //Add your code here
@@ -49,10 +49,9 @@ class chatbot{
     // ros::Rate loop_rate(20);
     public:
     chatbot(ros::NodeHandle *n){
-        ros::Publisher chatter_pub = n->advertise<chatbot_node::reply_msg>("reply_msg", 1000);
-        ros::Subscriber sub = n->subscribe("sent_msg", 1000, sent_msg_callback,this);
+        chatter_pub = n->advertise<chatbot_node::reply_msg>("reply_msg", 1000);
+        sub = n->subscribe("sent_msg", 1000, &chatbot::sent_msg_callback,this);
         n->getParam("name", name);
-        // ros::Rate loop_rate(20);
     }
 
     void sent_msg_callback(const message_ui::sent_msg msg)
@@ -60,27 +59,24 @@ class chatbot{
             tmp_sent_msg = msg.message;
             ROS_INFO("I heard: [%s]", tmp_sent_msg.c_str());
             if (tmp_sent_msg == "Hello"){
-                // n.getParam("name", name);
-                // cout << name << endl;
                 tmp_rply_msg.message = format("Hello, %s      ", name.c_str());
+                received_msg = true; 
             }
             else if (tmp_sent_msg == "What is your name?"){
                 tmp_rply_msg.message = "My name is MRSD Siri";
+                received_msg = true; 
             }
             else if (tmp_sent_msg == "How are you?"){
                 tmp_rply_msg.message = "I'm fine,thank you";
+                received_msg = true; 
             }
+            if (received_msg){
             chatter_pub.publish(tmp_rply_msg);
-            return;
+            received_msg = false;
+            }
         }
 
 };
-
-// void sent_msg_callback(const message_ui::sent_msg msg)
-// {
-//     tmp_sent_msg = msg.message;
-//     ROS_INFO("I heard: [%s]", tmp_sent_msg.c_str());
-// }
 
 
 
@@ -89,40 +85,15 @@ int main(int argc, char **argv) {
     ros::init(argc, argv, "chatbot_node");
     ros::NodeHandle n;
     ros::Rate loop_rate(20);
-
-    
-
-    // //   ros::NodeHandle n_pub;
-    // ros::NodeHandle n;
-
-    // //Add your code here
-    // ros::Publisher chatter_pub= n.advertise<chatbot_node::reply_msg>("reply_msg", 1000);
-    // ros::Subscriber sub = n.subscribe("sent_msg", 1000, sent_msg_callback);
-    // ros::Rate loop_rate(20);
-    
-    chatbot* bot = new chatbot(&n);
-
+        
+    // chatbot* bot = new chatbot(&n);
+    chatbot bot(&n);
 
     while(ros::ok()) {
-
-        // if (tmp_sent_msg == "Hello"){
-        //     n.getParam("name", name);
-        //     // cout << name << endl;
-        //     tmp_rply_msg.message = format("Hello, %s      ", name.c_str());
-        // }
-        // else if (tmp_sent_msg == "What is your name?"){
-        //     tmp_rply_msg.message = "My name is MRSD Siri";
-        // }
-        // else if (tmp_sent_msg == "How are you?"){
-        //     tmp_rply_msg.message = "I'm fine,thank you";
-        // }
-
-
-        // chatter_pub.publish(tmp_rply_msg);
 
     ros::spinOnce();
     loop_rate.sleep();
     }
-    delete bot;
+    // delete bot;
     return 0;
 }
